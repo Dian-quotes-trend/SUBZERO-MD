@@ -10,18 +10,18 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",
-    PREFIX: process.env.PREFIX || ".",
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~gsqQUN7IC738LIBAkVhg",
+    PREFIX: process.env.PREFIX || "Dian deployed me",
     BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",
-    OWNER_NAME: process.env.OWNER_NAME || "Mr Frank",
-    DEV: process.env.DEV || "263719647303",
-    DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "256779008997",
+    OWNER_NAME: process.env.OWNER_NAME || "Dian",
+    DEV: process.env.DEV || "256779008997",
+    DEVELOPER_NUMBER: '256779008997@s.whatsapp.net',
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -56,7 +56,7 @@ module.exports = {
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
     FOOTER: process.env.FOOTER || "*© Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ*",
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
